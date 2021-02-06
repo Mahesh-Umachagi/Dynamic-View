@@ -1,0 +1,14 @@
+<div *ngIf = "data">
+<table class="table table-striped table-dark" style="text-align: center;">
+    <thead class="thead-dark">
+      <tr>
+        <th *ngFor = "let obj of columns" scope="col">{{obj}}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let l of data">
+        <td scope="col" *ngFor = "let obj of columns">{{l[obj]}}</td>
+      </tr> 
+    </tbody>
+  </table>
+  </div>
