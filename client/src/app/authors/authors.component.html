@@ -1,12 +1,6 @@
-
-<h1 style="text-align: center;">Authors</h1>
-<div class="container" style=" display: flex;
-justify-content: center;">
-    <div *ngIf = "list">
-        <app-table [data] = "list"></app-table>
-    </div>
+<h1>Authors</h1>
+<div class="container">
+  <div *ngIf="list">
+    <app-table [data]="list"></app-table>
   </div>
-
-
-
-
+</div>

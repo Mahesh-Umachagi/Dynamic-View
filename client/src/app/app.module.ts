@@ -8,23 +8,15 @@ import { BooksComponent } from './books/books.component';
 import { HttpClientModule } from '@angular/common/http';
 import { TableComponent } from './table/table.component';
 
-
-
 @NgModule({
   declarations: [
     AppComponent,
     AuthorsComponent,
     BooksComponent,
     TableComponent,
-
-
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

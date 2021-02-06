@@ -5,11 +5,11 @@ import { BooksComponent } from './books/books.component';
 
 const routes: Routes = [
   { path: 'authors', component: AuthorsComponent },
-    { path: 'books', component: BooksComponent },
+  { path: 'books', component: BooksComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
